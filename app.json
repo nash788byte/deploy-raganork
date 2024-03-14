@@ -9,34 +9,34 @@
     "stack": "container",
     "env": {
         "HANDLERS": {
-            "description": "Prefix of commands. Can be also false",
+            "description": ".",
             "required": true,
-            "value":".,"
+            "value":"."
         },
         "MULTI_HANDLERS": {
-            "description": "Use prefix as given handlers and also without handlers",
+            "description": "false",
             "required": true,
             "value":"false"
         },
         "READ_MESSAGES": {
-            "description": "Bot will read all messages. Can be also false",
+            "description": "True",
             "required": true,
             "value":"false"
         },
         "READ_COMMAND": {
-            "description": "Bot will read all commands (blue tick). Can be also false",
+            "description": " (true",
             "required": true,
             "value":"true"
         },
        "HEROKU_API_KEY": {
-            "description": "For updating bot and setting vars remotely",
+            "description": "true",
             "required": true,
             "value":""
         },
         "HEROKU_APP_NAME": {
-            "description": "Exact name which you gave at the top",
+            "description": "NASH BOT",
             "required": true,
-            "value":""
+            "value":"NASH"
         },
         "STICKER_DATA": {
             "description": "Name of stickers created using bot. Can also split using ;",
@@ -51,7 +51,7 @@
         "BOT_NAME": {
             "description": "Name of AI chatbot",
             "required": true,
-            "value":"Raganork"
+            "value":"NASH"
         },
         "AUDIO_DATA": {
             "description": "Name of audio (take) name;name;image(url)",
@@ -69,7 +69,7 @@
             "value":""
         },
         "BLOCK_CHAT": {
-            "description": "Block bot in specific groups, enter jids here sepereated with commas",
+            "description": "true",
             "required": false,
             "value":""
         },
@@ -81,7 +81,7 @@
         "ALLOWED": {
             "description": "Country codes allowed by antifake",
             "required": false,
-            "value":"91,48"
+            "value":"07,+254"
         },
         "WARN": {
             "description": "Warn limit",
@@ -94,14 +94,14 @@
             "value":"english"
         },
         "AUTO_READ_STATUS": {
-            "description": "View status updates automatically",
+            "description": "true",
             "required": false,
             "value":"true"
         },
         "ALIVE": {
             "description": "Alive message, customize your alive msg by looking wiki",
             "required": false,
-            "value":"_Bot is alive since {uptime}_"
+            "value":"_NIKO ON MSEE 😂😂_"
         },
        "SESSION": {
             "description": "Your session code, obtained by scanning QR",
